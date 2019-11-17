@@ -1,6 +1,7 @@
 @charset "UTF-8";
 @import url(font-awesome.min.css);
-@import "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600";
+/*@import "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600";*/
+@import "https://fonts.googleapis.com/css?family=Baumans&display=swap";
 
 /*
 	Projection by TEMPLATED
@@ -15,7 +16,7 @@
 		padding: 0;
 		border: 0;
 		font-size: 100%;
-		font: inherit;
+		font-family: 'Baumans', cursive;
 		vertical-align: baseline;
 	}
 
@@ -1931,7 +1932,7 @@
 	}
 
 		form .field {
-			margin-bottom: 1.5em;
+			margin-bottom: 2.0em;
 		}
 
 			form .field.half {
@@ -1974,10 +1975,10 @@
 		-webkit-appearance: none;
 		-ms-appearance: none;
 		appearance: none;
-		background: #6cc091;
+		background: #e27b0c;
 		border-radius: 10px;
 		border: none;
-		border: solid 2px #8dcca9;
+		border: solid 2px #fff /*#f49836*/;
 		color: #fff;
 		display: block;
 		outline: 0;
@@ -2526,8 +2527,8 @@
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		background-color: transparent;
-		box-shadow: inset 0 0 0 3px #6cc091;
-		color: #6cc091 !important;
+		box-shadow: inset 0 0 0 3px #e27b0c;
+		color: #e27b0c !important;
 		border-radius: 30px;
 		border: 0;
 		cursor: pointer;
@@ -2754,7 +2755,7 @@
 		}
 
 			#header a:hover {
-				color: #ffffff;
+				color: #ffdd00;
 			}
 
 			#header a:last-child {
@@ -2917,7 +2918,7 @@
 
 	#banner {
 		padding: 8em 0 9em 0;
-		background-image: url(../../images/banner1.jpg);
+		background-image: url(../../images/banner3.jpg);
 		background-size: cover;
 		background-position: bottom;
 		background-attachment: fixed;
@@ -2937,10 +2938,15 @@
 		}
 
 		#banner .inner {
-			border-top: 2px solid rgba(255, 255, 255, 0.2);
+			border-top: 2px solid #f49836 /*rgba(255, 255, 255, 0.2)*/;
 			position: relative;
 			z-index: 10005;
 			padding-top: 8em;
+		}
+
+		#banner img {
+			max-height: 120px;
+			max-width: 120px;
 		}
 
 		#banner h1 {
@@ -2950,6 +2956,13 @@
 			line-height: 1em;
 			margin: 0 0 1em 0;
 			padding: 0;
+		}
+
+		#banner h2 {
+			font-weight: 400;
+			color: #fff;
+			margin: 0;
+			font-size: 2.0em;
 		}
 
 		#banner h3 {
@@ -3053,6 +3066,10 @@
 					font-size: 2.5em;
 				}
 
+				#banner h2 {
+					font-size: 1.75em;
+				}
+
 				#banner h3 {
 					font-size: 1.25em;
 				}
@@ -3111,10 +3128,14 @@
 
 	#footer {
 		padding: 6em 0;
-		background: #6cc091;
+		background: #555;
 		color: #fff;
 		text-align: center;
 	}
+		
+	  #footer h2 {
+			color: #fff;
+		}
 
 		#footer h3 {
 			color: #FFF;
