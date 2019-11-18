@@ -2698,7 +2698,7 @@
 	}
 
 		.subpage #header {
-			background: #6cc091;
+			background: #f49836;
 			top: 0;
 			height: 44px;
 			line-height: 44px;
@@ -2734,7 +2734,7 @@
 			padding: 0;
 			position: absolute;
 			top: 0;
-			font-size: 1em;
+			font-size: 2em;
 		}
 
 			#header .logo strong {
@@ -2979,7 +2979,7 @@
 
 		#banner p {
 			font-size: 1em;
-			color: rgba(255, 255, 255, 0.55);
+			color: rgba(255, 255, 255, 0.75);
 			margin-bottom: 1.75em;
 		}
 
