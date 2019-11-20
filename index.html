@@ -116,15 +116,16 @@
 
 			<h2>Get In Touch</h2>
 
-			<form action="#" method="post">
+      <div class="kwes-form">
+			<form action="https://kwes.io/api/foreign/forms/QnqQvEcjkS4kNa6JKn4m" method="post">
 
 				<div class="field half first">
 					<label for="name">Name</label>
-					<input name="name" id="name" type="text" placeholder="Name">
+          <input name="name" id="name" type="text" placeholder="Name" rules="required|max:255">
 				</div>
 				<div class="field half">
 					<label for="email">Email</label>
-					<input name="email" id="email" type="email" placeholder="Email">
+					<input name="email" id="email" type="email" placeholder="Email" rules="required|max:255">
 				</div>
 				<div class="field">
 					<label for="message">Message</label>
@@ -134,7 +135,7 @@
 					<li><input value="Send Message" class="button alt" type="submit"></li>
 				</ul>
 			</form>
-
+      </div>
 			<div class="copyright">
 				&copy; Untitled. Design: <a href="https://templated.co">TEMPLATED</a>. Images: <a
 					href="https://unsplash.com">Unsplash</a>.
@@ -148,7 +149,7 @@
 	<script src="assets/js/skel.min.js"></script>
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
-
+  <script src="https://kwes.io/js/kwes.js"></script>
 </body>
 
 </html>
