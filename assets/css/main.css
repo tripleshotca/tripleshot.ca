@@ -188,6 +188,9 @@
 		.container {
 			width: 90% !important;
 		}
+    .who-we-are {
+      text-align: left;
+    }
 
 	}
 
@@ -214,6 +217,9 @@
 		.container {
 			width: 90% !important;
 		}
+    .who-we-are {
+      text-align: left;
+    }
 
 	}
 
@@ -1933,6 +1939,7 @@
 
 		form .field {
 			margin-bottom: 2.0em;
+      vertical-align: top;
 		}
 
 			form .field.half {
