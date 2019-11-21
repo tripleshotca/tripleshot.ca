@@ -188,7 +188,10 @@
 		.container {
 			width: 90% !important;
 		}
-    .who-we-are {
+    .inner > header {
+      display: none;
+    }
+    .who-we-are > p {
       text-align: left;
     }
 
@@ -217,7 +220,12 @@
 		.container {
 			width: 90% !important;
 		}
-    .who-we-are {
+
+    .inner > header {
+      display: none;
+    }
+
+    .who-we-are > p {
       text-align: left;
     }
 
@@ -2989,6 +2997,7 @@
 			font-size: 1em;
 			color: rgba(255, 255, 255, 0.75);
 			margin-bottom: 1.75em;
+      padding-bottom: 6px;
 		}
 
 		#banner .flex {
